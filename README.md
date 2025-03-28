@@ -29,7 +29,7 @@
 
  
 ## <a name="introducao">🤖 Introdução</a>
-Este aplicativo foi desenvolvido para portfólio, com o objetivo de oferecer uma solução completa de ecommerce com foco em responsividade, animações suaves e performance. Construído utilizando **React Native**, **Node.js** e **MongoDB**.
+Este aplicativo foi desenvolvido para portfólio, com o objetivo de oferecer uma solução completa de ecommerce responsiva, animações suaves e boa performance. Construído utilizando **React Native**, **Node.js** e **MongoDB**.
 
 Este projeto ainda está em desenvolvimento, com o **backend** sendo planejado para futuras implementações. O objetivo atual é finalizar o desenvolvimento do **frontend** e preparar o aplicativo para futuras integrações.
 
