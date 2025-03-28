@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://bit.ly/3LboNOQ" target="_blank">
-      <img src="https://i.postimg.cc/3xjm5F9w/main-thumbnail.png" alt="Project Banner">
+    <a href="" target="_blank">
+      <img src="" alt="Project Banner">
     </a>
   <br />
 
@@ -25,8 +25,7 @@
 2. ⚙️ [Tecnologias Utilizadas](#tecnologias-utilizadas)
 3. 🔋 [Funcionalidades](#funcionalidades)
 4. 🤸 [Início Rápido](#inicio-rapido)
-5. 🖼️ [Recursos](#recursos)
-6. 🔗 [Links](#links)
+
 
  
 ## <a name="introducao">🤖 Introdução</a>
