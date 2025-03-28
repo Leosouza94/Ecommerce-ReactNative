@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="" target="_blank">
-      <img src="" alt="Project Banner">
+      <img src="assets/Banner%20Projeto%20Ecommerce%20React%20Native.jpg" alt="Project Banner">
     </a>
   <br />
 
