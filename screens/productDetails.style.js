@@ -58,7 +58,8 @@ const styles = StyleSheet.create({
   } ,  
   ratingText:{
     color: COLORS.gray,
-    fontFamily: "medium"
+    fontFamily: "medium",
+    paddingHorizontal: SIZES.xSmall
   } ,
   title:{
     fontFamily:"bold",
@@ -81,7 +82,61 @@ const styles = StyleSheet.create({
   description:{
     fontFamily:"bold",
     fontSize: SIZES.large
-  }
+  },
+descText:{
+  fontFamily:"regular",
+    fontSize: SIZES.medium,
+    textAlign: "justify",
+    marginBottom: SIZES.small
+},
+location: {
+  flexDirection:"row",
+  justifyContent: "space-between",
+  alignItems: "center",
+  backgroundColor: COLORS.secondary,
+  marginHorizontal: 12,
+  padding: 5,
+  borderRadius: SIZES.large
+},
+cartRow:{
+  
+  paddingBottom:SIZES.small,
+  flexDirection:"row",
+  justifyContent:"space-between",
+  alignItems:"center",
+  width:SIZES.width,
+  
+},
+cartBtn:{
+  
+  
+  width:SIZES.width * 0.7,
+  height: 37,
+  backgroundColor: COLORS.black,
+  padding: SIZES.small,
+  borderRadius: SIZES.large,
+  marginLeft: 12,
+  alignItems: "center",
+  justifyContent: "center"
+},
+cartTitle:{
+  marginLeft: SIZES.small,
+  fontFamily:"semibold",
+  fontSize: SIZES.large,
+  color: COLORS.lightWhite
+  
+  
+},
+addBtn:{
+  width: 37,
+  height: 37,
+  borderRadius: 50,
+  margin: SIZES.small,
+  backgroundColor: COLORS.black,
+  alignItems: "center",
+  justifyContent: "center",
+  padding: 10
+}
 })
 
 export default styles;

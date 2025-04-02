@@ -13,7 +13,7 @@ const ProductCardView = () => {
       <View style={styles.container}>
         <View style={styles.imageContainer}>
           <Image
-            source={require("../../assets/images/fn1.jpg")}
+            source={require("../../assets/images/fn1_small.jpg")}
             style={styles.image}
           />
         </View>

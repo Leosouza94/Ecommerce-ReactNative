@@ -1,8 +1,9 @@
 import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native'
-import {Feather, Ionicons, SimpleLineIcons} from '@expo/vector-icons'
+import {Feather, Ionicons, SimpleLineIcons, MaterialCommunityIcons, Fontisto} from '@expo/vector-icons'
 import styles from './productDetails.style'
 import React, {useState} from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { COLORS, SIZES } from '../constants'
 
 const ProductDetails = ({navigation}) => {
   const [count, setCount] = useState(1)
@@ -71,10 +72,39 @@ const ProductDetails = ({navigation}) => {
       </View>
 
       <View style={styles.descriptionWrapper}>
-        <Text style={styles.description}></Text>
+        <Text style={styles.description}>Description</Text>
+        <Text style={styles.descText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, possimus quos quod doloribus fugiat, culpa, quaerat provident corrupti itaque nesciunt doloremque harum. Sunt vel at suscipit cupiditate modi eum cum?</Text>
+      </View>
+
+      <View style={{marginBottom: SIZES.small}}>
+      <View style = {styles.location}>
+        <View style={{flexDirection: "row"}}>
+          <Ionicons name='location-outline' size={20}></Ionicons>
+          <Text>Novo Hamburgo</Text>
+        </View>
+
+        <View style={{flexDirection: "row"}}>
+          <MaterialCommunityIcons name='truck-delivery-outline' size={20}></MaterialCommunityIcons>
+          <Text>Free Delivery</Text>
+        </View>
+
+      </View>
+        <View style = {styles.cartRow}>
+          <TouchableOpacity onPress={() => {}} style = {styles.cartBtn}>
+            <Text style={styles.cartTitle}>BUY NOW</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={() => {}} style = {styles.addBtn}>
+            <Fontisto name='shopping-bag' size={20} color={COLORS.lightWhite}/>
+
+          </TouchableOpacity>
+
+        </View>
       </View>
 
   </View>
+
+      
    
     
   )
